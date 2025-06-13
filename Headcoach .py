@@ -120,4 +120,3 @@ if st.button("🎯 Genereer Opstelling"):
             st.markdown(f"- {speler['naam']} – {speler.get('definitieve_positie', speler['positie'])} (sterkte: {'*'*speler['sterkte']})")
 else:
     st.info("Voer spelers in en klik op 'Genereer Opstelling' om te starten.")
-
